@@ -23,7 +23,9 @@ var fileUpload = require('express-fileupload');
 var dust = require('dustjs-linkedin');
 var dustHelpers = require('dustjs-helpers');
 var cons = require('consolidate');
-const hbs = require('hbs')
+const hbs = require('hbs');
+
+console.log("Hello World");
 
 var app = express();
 var routes = require('./routes');
